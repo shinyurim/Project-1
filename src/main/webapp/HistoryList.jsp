@@ -60,8 +60,8 @@ th {
     %>
     <tr>
     	<td><%=history_dto.getHistory_ID() %></td>
-		<td><%=history_dto.getHistory_X() %></td>
-		<td><%=history_dto.getHistroy_Y() %></td>
+		<td><%=history_dto.getHistory_Y() %></td>
+		<td><%=history_dto.getHistroy_X() %></td>
 		<td><%=history_dto.getIn_Date() %></td>
         <td>
            <button type = submit onclick="location.href= 'delete.jsp?id=<%=history_dto.getHistory_ID() %>'">
